@@ -112,6 +112,7 @@ spec:
           allowOsdCrushWeightUpdate: true
           # when onlyApplyOSDPlacement is false, will merge both placement.All() and storageClassDeviceSets.Placement
           onlyApplyOSDPlacement: false
+
       cephBlockPools:
         - name: ceph-nvme
           spec:
